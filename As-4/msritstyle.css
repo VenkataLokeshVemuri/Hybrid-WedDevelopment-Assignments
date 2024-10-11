@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header h1{
+    text-align: center;
+    color: white;
+}
+.logo {
+    width: 100%;
+    height: 100px;
+    
+}
+.nirf-ranking h2{
+    color: white;
+}
+.nirf-ranking {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.nirf-ranking img {
+    width: 100px;
+    height: 70px;
+    margin: 10px;
+}
+
+.box {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    /*transform: translateX(50%);*/
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.admission-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.admission-form input[type="text"], .admission-form input[type="email"], .admission-form input[type="tel"] {
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid #ccc;
+}
+
+.admission-form select {
+    width: 85%;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid #ccc;
+}
+
+.submit[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width:85%;
+  
+}
+
+.submit[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('bg.jpeg');
+    background-size: cover;
+    z-index: -1;
+}
+
+/* Responsive Layout */
+@media only screen and (max-width: 768px) {
+    .admission-form {
+        width: 80%;
+        margin: 40px auto;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .admission-form {
+        width: 90%;
+        margin: 20px auto;
+    }
+}
